@@ -18,12 +18,16 @@ python3 -m venv venv
 source venv/bin/activate   # On Mac/Linux
 venv\Scripts\activate      # On Windows
 
+---
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
 (If you don’t have a requirements.txt, install directly:)
 
 pip install selenium pandas openpyxl webdriver-manager
+
+---
 
 📑 Excel File Format
 
@@ -35,6 +39,8 @@ PhoneNumber
 923001234567
 923451234567
 923331234567
+
+---
 
 ▶️ Usage
 
@@ -50,6 +56,8 @@ python whatsapp_bulk.py
 
 On the first run, scan the WhatsApp Web QR Code when prompted. Your session will be saved for future runs.
 
+---
+
 ⚠️ Important Notes
 
 Ensure you have Google Chrome installed.
@@ -57,3 +65,5 @@ Ensure you have Google Chrome installed.
 WhatsApp may temporarily block you if you send too many messages in a short time. Use responsibly.
 
 This script is intended for personal/job-hunting purposes only, not for spam.
+
+---
