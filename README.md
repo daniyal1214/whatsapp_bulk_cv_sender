@@ -44,8 +44,11 @@ Your EXCEL.xlsx file must have a column named **PhoneNumber(Required)** with pho
 Example:
 
 PhoneNumber
+
 923001234567
+
 923451234567
+
 923331234567
 
 ---
