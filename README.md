@@ -17,7 +17,9 @@ It uses **Selenium WebDriver** to interact with [WhatsApp Web](https://web.whats
 
 ```bash
 python3 -m venv venv
+
 source venv/bin/activate   # On Mac/Linux
+
 venv\Scripts\activate      # On Windows
 ```
 
